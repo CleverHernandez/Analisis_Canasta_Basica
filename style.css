@@ -1,0 +1,181 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    background-color: #1f4e79;
+    color: rgb(255, 255, 255);
+
+    padding: 50px 20px;
+
+    margin-bottom: 50px;
+}
+
+section {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    color: #000000;
+}
+
+h2 {
+    color: #2e75b6;
+}
+
+img {
+    width: 85%;
+    max-width: 1000px;
+
+    display: block;
+
+    margin: 30px auto;
+
+    border-radius: 15px;
+
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.15);
+}
+
+h3 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+nav {
+    background-color: white;
+
+    padding: 15px;
+
+    position: sticky;
+    top: 0;
+
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+
+    z-index: 1000;
+
+    display: flex;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    gap: 25px;
+}
+
+nav a:hover {
+    color: #9c4bd1;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav a {
+
+    text-decoration: none;
+
+    color: #2e5c86;
+
+    font-weight: bold;
+
+    transition: 0.5s;
+
+    padding: 5px 10px;
+}
+
+nav a:hover {
+
+    background-color: #f0f0f0;
+
+    border-radius: 8px;
+
+    color: #9c4bd1;
+}
+
+.contenedor-boton {
+
+    text-align: center;
+
+    margin-top: 20px;
+}
+
+.enlace-colab {
+
+    display: inline-block;
+
+    background-color: #2e75b6;
+
+    color: white !important;
+
+    padding: 14px 24px;
+
+    border-radius: 10px;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    margin-top: 20px;
+
+    transition: 0.5s;
+}
+
+.enlace-colab:hover {
+
+    background-color: #1f4e79;
+
+    color: white;
+}
+
+@media (max-width: 768px) {
+
+    body {
+        font-size: 14px;
+    }
+
+    nav {
+        gap: 10px;
+    }
+
+    nav a {
+        display: block;
+        margin: 5px 0;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    section {
+        padding: 20px;
+    }
+}
+
+footer {
+    background-color: #1f4e79;
+
+    color: rgba(255, 255, 255, 0.504);
+
+    text-align: center;
+
+    padding: 30px;
+
+    margin-top: 50px;
+}
